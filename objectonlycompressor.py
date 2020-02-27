@@ -10,7 +10,7 @@ def fetch_image(url) -> Image:
     return Image.open(BytesIO(requests.get(url).content))
 
 
-class ObjectOnlyCompression:
+class ObjectOnlyCompressor:
 
     def __init__(self, model_path, api_key):
         self.detector = ObjectDetection()
