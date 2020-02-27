@@ -1,0 +1,7 @@
+numpy
+pillow
+imageai
+requests
+tensorflow==1.15.2
+opencv-python
+keras
